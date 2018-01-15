@@ -10,7 +10,7 @@
   * app.scss : fichier de surcharge
   * framework.scss : fichier principal du framework (chargement des modules)
   * framework: dossier du Framework
-  * _variables.scss : variables du Framework
-  * modules: modules du framework
-    * _boites.scss : classes concernant les boites
-    * _contenus.scss : classes concernant les contenus
+    * _variables.scss : variables du Framework
+    * modules: modules du framework
+      * _boites.scss : classes concernant les boites
+      * _contenus.scss : classes concernant les contenus
