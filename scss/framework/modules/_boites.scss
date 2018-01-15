@@ -1,0 +1,11 @@
+/*
+  ./scss/framework/modules/_boites.scss
+  Module des boites
+ */
+
+/* Types de boîtes */
+  .boite-fixe {
+    width: 100%;
+    max-width: $largeurBoiteFixe;
+    margin: auto;
+  }

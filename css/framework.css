@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+  .scss/framework/_variables.scss
+  Variables du framework
+ */
+/* COULEURS */
+/* DIMENSIONS */
+/*
+  ./scss/framework/modules/_boites.scss
+  Module des boites
+ */
+/* Types de boîtes */
+.boite-fixe {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+/*
+  ./scss/framework/modules/_contenus.scss
+  Module des contenus
+ */
