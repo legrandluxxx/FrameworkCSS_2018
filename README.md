@@ -9,7 +9,7 @@
   * framework.css: framework étendu
   * framework.min.css: framework minifié
 * __documents:__ dossier reprenant la carte mentale du framework (png + mom)
-  * framework.css.mom: fichier Mindomo
+  * framework.mom: fichier Mindomo
   * framework.png: capture d'écran
 * __scss:__ dossier reprenant les fichiers de travail (SASS)
   * app.scss : fichier de surcharge
@@ -26,28 +26,10 @@
   * $couleur2: couleur secondaire
 
 * Les dimensions
-  * $dimension-boite-fixe: largeur des boites fixes
+  * $largeurBoiteFixe: largeur des boites fixes
 
 ### Module des Boites
 * Types de Boites:
   * .boite-fixe : boite de $dimension-boite-fixe centrée et responsive
 
-* Boites colorées :
-  * .boite-fond-coul1: boite de couleur principale
-  * .boite-fond-coul2: boite de couleur secondaire
-
-* Boites particulières:
-  * .boites-marge-nulle: boite sans marges
-
 ### Module des Contenus
-* Alignement des contenus:
-  * .contenu-droite: alignement à droite
-  * .contenu-centre: alignement centré
-  * .contenu-justife: alignement justifié
-
-* Type d'affichage:
-  * contenu-inline: affichage du contenu en inline-block
-
-### Module des Listes
-* Types delistes :
-  * .liste-sans-puces: liste sans puces
