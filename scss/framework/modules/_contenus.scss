@@ -2,3 +2,33 @@
   ./scss/framework/modules/_contenus.scss
   Module des contenus
  */
+
+/* Alignements des textes */
+  .contenu-centre {
+    text-align: center;
+  }
+  .contenu-gauche {
+    text-align: left;
+  }
+  .contenu-droite {
+    text-align: right;
+  }
+  .contenu-justifie {
+    text-align: justify;
+  }
+
+/* Taille des textes */
+  .contenu-grand {
+    font-size: $contenuGrand;
+  }
+  .contenu-medium {
+    font-size: $contenuMedium;
+  }
+  .contenu-petit {
+    font-size: $contenuPetit;
+  }
+
+/* Couleurs des contenus */
+  .contenu-couleur1 {
+    color: $couleur1;
+  }

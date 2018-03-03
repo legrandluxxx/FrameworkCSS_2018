@@ -7,8 +7,9 @@
    ----------------------------------------------------
 */
 body {
-  background: #ccc;
-  color: #333;
+  background: url('../media/fond1.jpg');
+  color: #999;
+  font-size: 1.2em;
 }
 
 
@@ -16,3 +17,14 @@ body {
    OBJETS PARTICULIERS (identifiés par un id)
    ----------------------------------------------------
 */
+#sectionPrincipale {
+  background: #fff;
+  padding: 2em;
+  border: #000 10px solid;
+}
+
+#contenuPrincipal {
+  border-top: #999 1px solid;
+  border-bottom: #999 1px solid;
+  margin: 1em 0;
+}

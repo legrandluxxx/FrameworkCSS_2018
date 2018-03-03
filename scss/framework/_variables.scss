@@ -4,8 +4,13 @@
  */
 
 /* COULEURS */
-  $couleur1: red;
+  $couleur1: #000097;
   $couleur2: green;
 
-/* DIMENSIONS */
-  $largeurBoiteFixe: 960px;
+/* DIMENSIONS DES BOITES */
+  $largeurBoiteFixe: 600px;
+
+/* TAILLE DES CONTENUS */
+  $contenuGrand:  2.3em;
+  $contenuMedium: 1.2em;
+  $contenuPetit:  .8em;

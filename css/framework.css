@@ -4,7 +4,8 @@
   Variables du framework
  */
 /* COULEURS */
-/* DIMENSIONS */
+/* DIMENSIONS DES BOITES */
+/* TAILLE DES CONTENUS */
 /*
   ./scss/framework/modules/_boites.scss
   Module des boites
@@ -12,11 +13,49 @@
 /* Types de boîtes */
 .boite-fixe {
   width: 100%;
-  max-width: 960px;
+  max-width: 600px;
   margin: auto;
+}
+
+.boite-marge-nulle {
+  margin: 0;
 }
 
 /*
   ./scss/framework/modules/_contenus.scss
   Module des contenus
  */
+/* Alignements des textes */
+.contenu-centre {
+  text-align: center;
+}
+
+.contenu-gauche {
+  text-align: left;
+}
+
+.contenu-droite {
+  text-align: right;
+}
+
+.contenu-justifie {
+  text-align: justify;
+}
+
+/* Taille des textes */
+.contenu-grand {
+  font-size: 2.3em;
+}
+
+.contenu-medium {
+  font-size: 1.2em;
+}
+
+.contenu-petit {
+  font-size: 0.8em;
+}
+
+/* Couleurs des contenus */
+.contenu-couleur1 {
+  color: #000097;
+}

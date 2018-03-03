@@ -25,11 +25,26 @@
   * $couleur1: couleur principale
   * $couleur2: couleur secondaire
 
-* Les dimensions
+* Les dimensions de boîtes
   * $largeurBoiteFixe: largeur des boites fixes
+
+* Les dimensions de textes
+  * $contenuGrand: taille L
+  * $contenuMedium: taille M
+  * $contenuPetit: taille S
 
 ### Module des Boites
 * Types de Boites:
-  * .boite-fixe : boite de $dimension-boite-fixe centrée et responsive
+  * .boite-fixe: boite de $dimension-boite-fixe centrée et responsive
+  * .boite-marge-nulle: boite sans marges
 
 ### Module des Contenus
+* Alignements des contenus:
+  * .contenu-centre: contenu centré
+  * .contenu-gauche: contenu à gauche
+  * .contenu-droite: contenu à droite
+  * .contenu-justifie: contenu justifié
+* Tailles des textes:
+  * .contenu-grand
+  * .contenu-medium
+  * .contenu-petit
