@@ -6,6 +6,7 @@
 /* COULEURS */
 /* DIMENSIONS DES BOITES */
 /* TAILLE DES CONTENUS */
+/* MENUS */
 /*
   ./scss/framework/modules/_boites.scss
   Module des boites
@@ -57,5 +58,33 @@
 
 /* Couleurs des contenus */
 .contenu-couleur1 {
-  color: #000097;
+  color: #FF9332;
+}
+
+/*
+  ./scss/framework/modules/_menus.scss
+  Module des menus
+ */
+/* Types de menus */
+.menu-horizontal > ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.menu-horizontal > ul > li:not(:first-child) {
+  margin-left: 1px;
+}
+
+.menu-horizontal > ul > li > a {
+  background: #FF9332;
+  padding: 1em;
+  text-decoration: none;
+  color: #ffe4cb;
+}
+
+.menu-horizontal > ul > li > a:hover,
+.menu-horizontal > ul > li.actif > a {
+  background: #0160A0;
+  color: #fff;
 }

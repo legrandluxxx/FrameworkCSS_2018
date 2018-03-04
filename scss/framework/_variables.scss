@@ -3,9 +3,14 @@
   Variables du framework
  */
 
-/* COULEURS */
-  $couleur1: #000097;
-  $couleur2: green;
+/* PALETTE DE COULEURS DE L'APPLICATION */
+  $couleur1: #FF9332;
+  $couleur1Claire: lighten($couleur1, 30%);
+  $couleur1Foncee: darken($couleur1, 30%);
+
+  $couleur2: #0160A0;
+  $couleur2Claire: lighten($couleur2, 30%);
+  $couleur2Foncee: darken($couleur2, 30%);
 
 /* DIMENSIONS DES BOITES */
   $largeurBoiteFixe: 600px;
@@ -14,3 +19,12 @@
   $contenuGrand:  2.3em;
   $contenuMedium: 1.2em;
   $contenuPetit:  .8em;
+
+/* MENUS */
+  $menuCouleurOff:  $couleur1;
+  $menuCouleurTexteOff:  $couleur1Claire;
+
+  $menuCouleurOn:  $couleur2;
+  $menuCouleurTexteOn:  #fff;
+
+  $menuMarge: 1px;

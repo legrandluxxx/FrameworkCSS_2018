@@ -9,23 +9,24 @@
   <link rel="stylesheet" href="css/app.min.css" />
 </head>
 <body>
-  <!-- main>(header>h1+h2)+(section>h1+p>lorem)+footer>div -->
-  <main id="sectionPrincipale" class="boite-fixe">
-    <header class="contenu-centre">
-      <h1 class="contenu-grand boite-marge-nulle contenu-couleur1">CSS - Exercices progressifs</h1>
-      <h2 class="boite-marge-nulle">Une boîte centrée</h2>
+  <!-- main>(header>h1+h2+nav>ul>li*4>a[href="#"])+section>p*2>lorem -->
+  <main class="boite-fixe">
+    <header>
+      <h1>CSS Exercices progressifs</h1>
+      <h2>Un menu horizontal</h2>
+      <nav class="menu-horizontal">
+        <ul>
+          <li class="actif"><a href="#">Editorial</a></li>
+          <li><a href="#">Nos produits</a></li>
+          <li><a href="#">Notre équipe</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
     </header>
-    <section id="contenuPrincipal">
-      <h1>Editorial</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. At odit repellendus, cumque, placeat minus
-        rerum consequuntur explicabo dolorem impedit minima.
-        Quod vero exercitationem, tempora dicta culpa unde
-        numquam odio similique?</p>
+    <section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, minima, accusamus. Natus dolor enim, repellat non dolores blanditiis facilis eos aspernatur et dolore nihil officia fugiat ratione, ut est tempora.</p>
+      <p>Hic earum explicabo nostrum blanditiis, tempora architecto placeat accusamus minima. Corporis et beatae, eaque quam eius, ipsa impedit itaque voluptates voluptatum incidunt, voluptatem commodi obcaecati est cupiditate earum doloremque adipisci.</p>
     </section>
-    <footer class="contenu-petit">
-      <div class="contenu-droite">&copy; IEPS 2018</div>
-    </footer>
   </main>
 </body>
 </html>
