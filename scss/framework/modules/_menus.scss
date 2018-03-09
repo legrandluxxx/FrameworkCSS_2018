@@ -1,0 +1,28 @@
+/*
+  ./scss/framework/modules/_menus.scss
+  Module des menus
+ */
+
+/* Types de menus */
+  .menu-horizontal > ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .menu-horizontal > ul > li:not(:first-child) {
+    margin-left: $menuMarge;
+  }
+
+  .menu-horizontal > ul > li > a {
+    background: $menuCouleurOff;
+    padding: 1em;
+    text-decoration: none;
+    color: $menuCouleurTexteOff;
+  }
+
+  .menu-horizontal > ul > li > a:hover,
+  .menu-horizontal > ul > li.actif > a {
+    background: $menuCouleurOn;
+    color: $menuCouleurTexteOn;
+  }
