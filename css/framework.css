@@ -3,10 +3,20 @@
   .scss/framework/_variables.scss
   Variables du framework
  */
-/* COULEURS */
+/* PALETTE DE COULEURS DE L'APPLICATION */
 /* DIMENSIONS DES BOITES */
+/* BORDS DES BOITES */
+/* BORDS FOLTTANTES */
 /* TAILLE DES CONTENUS */
 /* MENUS */
+/*
+  ./scss/framework/modules/_reset.scss
+  Module reset
+ */
+figure {
+  margin: 0;
+}
+
 /*
   ./scss/framework/modules/_boites.scss
   Module des boites
@@ -14,12 +24,39 @@
 /* Types de boîtes */
 .boite-fixe {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 
 .boite-marge-nulle {
   margin: 0;
+}
+
+.boite-bords {
+  border: #555 1px solid;
+  padding: 1em;
+}
+
+.boite-flottante-gauche {
+  float: left;
+  margin-right: 1em;
+  width: 200px;
+}
+
+.boite-flottante-droite {
+  float: right;
+  margin-left: 1em;
+  width: 200px;
+}
+
+.boite-flottante-gauche img, .boite-flottante-droite img {
+  width: 100%;
+}
+
+.boite-clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 /*

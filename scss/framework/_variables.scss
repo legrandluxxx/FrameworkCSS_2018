@@ -12,8 +12,21 @@
   $couleur2Claire: lighten($couleur2, 30%);
   $couleur2Foncee: darken($couleur2, 30%);
 
+  $couleurNeutre: #555;
+  $couleurNeutreClaire: lighten($couleurNeutre, 30%);
+  $couleurNeutreFoncee: darken($couleur2, 30%);
+
 /* DIMENSIONS DES BOITES */
-  $largeurBoiteFixe: 600px;
+  $largeurBoiteFixe: 800px;
+
+/* BORDS DES BOITES */
+  $boiteBordsCouleur: $couleurNeutre;
+  $boiteBordsDimension: 1px;
+  $boiteBordsPadding: 1em;
+
+/* BORDS FOLTTANTES */
+  $boiteFlottanteLargeur: 200px;
+  $boiteFlottanteMargin: 1em;
 
 /* TAILLE DES CONTENUS */
   $contenuGrand:  2.3em;
