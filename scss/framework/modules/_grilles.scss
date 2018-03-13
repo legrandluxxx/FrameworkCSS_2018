@@ -1,0 +1,22 @@
+/*
+  ./scss/framework/modules/_grilles.scss
+  Module des grilles
+ */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .grille-g {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grille-g > * {
+    margin: $grillesGouttiere;
+  }
+
+  @for $i from 1 through $grillesColonnesNombre {
+    .l#{$i} {
+        flex-basis: calc((#{$i} * 100% / #{$grillesColonnesNombre}) - (2 * #{$grillesGouttiere}));
+    }
+  }

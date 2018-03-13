@@ -9,12 +9,78 @@
 /* BORDS FOLTTANTES */
 /* TAILLE DES CONTENUS */
 /* MENUS */
+/* GRILLES */
 /*
   ./scss/framework/modules/_reset.scss
   Module reset
  */
 figure {
   margin: 0;
+}
+
+/*
+  ./scss/framework/modules/_grilles.scss
+  Module des grilles
+ */
+* {
+  box-sizing: border-box;
+}
+
+.grille-g {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grille-g > * {
+  margin: 0.5em;
+}
+
+.l1 {
+  flex-basis: calc((1 * 100% / 12) - (2 * 0.5em));
+}
+
+.l2 {
+  flex-basis: calc((2 * 100% / 12) - (2 * 0.5em));
+}
+
+.l3 {
+  flex-basis: calc((3 * 100% / 12) - (2 * 0.5em));
+}
+
+.l4 {
+  flex-basis: calc((4 * 100% / 12) - (2 * 0.5em));
+}
+
+.l5 {
+  flex-basis: calc((5 * 100% / 12) - (2 * 0.5em));
+}
+
+.l6 {
+  flex-basis: calc((6 * 100% / 12) - (2 * 0.5em));
+}
+
+.l7 {
+  flex-basis: calc((7 * 100% / 12) - (2 * 0.5em));
+}
+
+.l8 {
+  flex-basis: calc((8 * 100% / 12) - (2 * 0.5em));
+}
+
+.l9 {
+  flex-basis: calc((9 * 100% / 12) - (2 * 0.5em));
+}
+
+.l10 {
+  flex-basis: calc((10 * 100% / 12) - (2 * 0.5em));
+}
+
+.l11 {
+  flex-basis: calc((11 * 100% / 12) - (2 * 0.5em));
+}
+
+.l12 {
+  flex-basis: calc((12 * 100% / 12) - (2 * 0.5em));
 }
 
 /*

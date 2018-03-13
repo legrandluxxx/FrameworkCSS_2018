@@ -14,7 +14,7 @@
 
   $couleurNeutre: #555;
   $couleurNeutreClaire: lighten($couleurNeutre, 30%);
-  $couleurNeutreFoncee: darken($couleur2, 30%);
+  $couleurNeutreFoncee: darken($couleurNeutre, 30%);
 
 /* DIMENSIONS DES BOITES */
   $largeurBoiteFixe: 800px;
@@ -41,3 +41,7 @@
   $menuCouleurTexteOn:  #fff;
 
   $menuMarge: 1px;
+
+/* GRILLES */
+  $grillesGouttiere: .5em;
+  $grillesColonnesNombre: 12;

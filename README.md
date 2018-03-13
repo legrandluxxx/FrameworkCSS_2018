@@ -17,8 +17,11 @@
   * __framework:__ dossier reprenant les éléments du Framework
     * _variables.scss : variables du Framework
     * __modules:__ dossier reprenant les modules du framework
+      * _reset.scss : module de reset
+      * _grilles.scss: classes concernant les grilles
       * _boites.scss : classes concernant les boites
       * _contenus.scss : classes concernant les contenus
+      * * _menus.scss : classes concernant les menus
 
 ### Les Variables
 * Les couleurs
