@@ -45,3 +45,8 @@
 /* GRILLES */
   $grillesGouttiere: .5em;
   $grillesColonnesNombre: 12;
+  $grilleBreakPoints: ('xs': '0',
+                       's' : '568px',
+                       'm' : '768px',
+                       'l' : '1024px',
+                       'xl': '1280px');

@@ -13,10 +13,15 @@
   }
   .grille-g > * {
     margin: $grillesGouttiere;
+    flex-basis: calc(100% - (2 * #{$grillesGouttiere})) ;
   }
 
-  @for $i from 1 through $grillesColonnesNombre {
-    .l#{$i} {
-        flex-basis: calc((#{$i} * 100% / #{$grillesColonnesNombre}) - (2 * #{$grillesGouttiere}));
+  @each $etiquette, $dimension in $grilleBreakPoints {
+    @media screen and (min-width: #{$dimension}) {
+      @for $i from 1 through $grillesColonnesNombre {
+        .#{$etiquette}#{$i} {
+            flex-basis: calc((#{$i} * 100% / #{$grillesColonnesNombre}) - (2 * #{$grillesGouttiere}));
+        }
+      }
     }
   }

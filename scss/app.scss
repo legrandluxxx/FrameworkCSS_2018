@@ -6,42 +6,14 @@
    SPECIFICATIONS GENERALES (valeurs par défaut)
    ----------------------------------------------------
 */
-body {
-}
+
+    div {
+      background: orange;
+      padding: 2em;
+    }
 
 
 /* ----------------------------------------------------
    OBJETS PARTICULIERS (identifiés par un id)
    ----------------------------------------------------
 */
-
-.couleur1 {
-  background: #000;
-  color: #fff;
-  padding: 2em;
-  text-align: center;
-}
-.couleur2 {
-  background: blue;
-  color: #fff;
-  padding: 2em;
-  text-align: center;
-}
-.couleur3 {
-  background: green;
-  color: #fff;
-  padding: 2em;
-  text-align: center;
-}
-.couleur4 {
-  background: orange;
-  color: #fff;
-  padding: 2em;
-  text-align: center;
-}
-.couleur5 {
-  background: red;
-  color: #fff;
-  padding: 2em;
-  text-align: center;
-}
