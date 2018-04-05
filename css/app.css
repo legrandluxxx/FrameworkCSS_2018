@@ -1,14 +1,36 @@
 @charset "UTF-8";
+/*
+  .scss/framework/_variables.scss
+  Variables du framework
+ */
+/* PALETTE DE COULEURS DE L'APPLICATION */
+/* DIMENSIONS DES BOITES */
+/* BORDS DES BOITES */
+/* BORDS FOLTTANTES */
+/* TAILLE DES CONTENUS */
+/* MENUS */
+/* GRILLES */
 /* ----------------------------------------------------
    SPECIFICATIONS GENERALES (valeurs par défaut)
    ----------------------------------------------------
 */
-div {
-  background: orange;
-  padding: 2em;
-}
-
 /* ----------------------------------------------------
    OBJETS PARTICULIERS (identifiés par un id)
    ----------------------------------------------------
 */
+#entetePrincipal h1 {
+  background: #FF9332;
+  padding: 1em;
+}
+
+#entetePrincipal div {
+  background: #00BC62;
+  padding: 1em;
+  height: 4em;
+}
+
+#sectionPrincipale article figure {
+  background: #ccc;
+  padding: 1em;
+  height: 4em;
+}

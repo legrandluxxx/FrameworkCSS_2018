@@ -32,202 +32,271 @@ figure {
 }
 
 .grille-g > * {
-  margin: 0.5em;
-  flex-basis: calc(100% - (2 * 0.5em));
+  margin: 0.5rem;
+  flex-basis: calc(100% - (2 * 0.5rem));
 }
 
 @media screen and (min-width: 0) {
   .xs1 {
-    flex-basis: calc((1 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((1 * 100% / 12) - (2 * 0.5rem));
   }
   .xs2 {
-    flex-basis: calc((2 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((2 * 100% / 12) - (2 * 0.5rem));
   }
   .xs3 {
-    flex-basis: calc((3 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((3 * 100% / 12) - (2 * 0.5rem));
   }
   .xs4 {
-    flex-basis: calc((4 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((4 * 100% / 12) - (2 * 0.5rem));
   }
   .xs5 {
-    flex-basis: calc((5 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((5 * 100% / 12) - (2 * 0.5rem));
   }
   .xs6 {
-    flex-basis: calc((6 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((6 * 100% / 12) - (2 * 0.5rem));
   }
   .xs7 {
-    flex-basis: calc((7 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((7 * 100% / 12) - (2 * 0.5rem));
   }
   .xs8 {
-    flex-basis: calc((8 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((8 * 100% / 12) - (2 * 0.5rem));
   }
   .xs9 {
-    flex-basis: calc((9 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((9 * 100% / 12) - (2 * 0.5rem));
   }
   .xs10 {
-    flex-basis: calc((10 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((10 * 100% / 12) - (2 * 0.5rem));
   }
   .xs11 {
-    flex-basis: calc((11 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((11 * 100% / 12) - (2 * 0.5rem));
   }
   .xs12 {
-    flex-basis: calc((12 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((12 * 100% / 12) - (2 * 0.5rem));
   }
 }
 
 @media screen and (min-width: 568px) {
   .s1 {
-    flex-basis: calc((1 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((1 * 100% / 12) - (2 * 0.5rem));
   }
   .s2 {
-    flex-basis: calc((2 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((2 * 100% / 12) - (2 * 0.5rem));
   }
   .s3 {
-    flex-basis: calc((3 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((3 * 100% / 12) - (2 * 0.5rem));
   }
   .s4 {
-    flex-basis: calc((4 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((4 * 100% / 12) - (2 * 0.5rem));
   }
   .s5 {
-    flex-basis: calc((5 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((5 * 100% / 12) - (2 * 0.5rem));
   }
   .s6 {
-    flex-basis: calc((6 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((6 * 100% / 12) - (2 * 0.5rem));
   }
   .s7 {
-    flex-basis: calc((7 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((7 * 100% / 12) - (2 * 0.5rem));
   }
   .s8 {
-    flex-basis: calc((8 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((8 * 100% / 12) - (2 * 0.5rem));
   }
   .s9 {
-    flex-basis: calc((9 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((9 * 100% / 12) - (2 * 0.5rem));
   }
   .s10 {
-    flex-basis: calc((10 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((10 * 100% / 12) - (2 * 0.5rem));
   }
   .s11 {
-    flex-basis: calc((11 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((11 * 100% / 12) - (2 * 0.5rem));
   }
   .s12 {
-    flex-basis: calc((12 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((12 * 100% / 12) - (2 * 0.5rem));
   }
 }
 
 @media screen and (min-width: 768px) {
   .m1 {
-    flex-basis: calc((1 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((1 * 100% / 12) - (2 * 0.5rem));
   }
   .m2 {
-    flex-basis: calc((2 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((2 * 100% / 12) - (2 * 0.5rem));
   }
   .m3 {
-    flex-basis: calc((3 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((3 * 100% / 12) - (2 * 0.5rem));
   }
   .m4 {
-    flex-basis: calc((4 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((4 * 100% / 12) - (2 * 0.5rem));
   }
   .m5 {
-    flex-basis: calc((5 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((5 * 100% / 12) - (2 * 0.5rem));
   }
   .m6 {
-    flex-basis: calc((6 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((6 * 100% / 12) - (2 * 0.5rem));
   }
   .m7 {
-    flex-basis: calc((7 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((7 * 100% / 12) - (2 * 0.5rem));
   }
   .m8 {
-    flex-basis: calc((8 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((8 * 100% / 12) - (2 * 0.5rem));
   }
   .m9 {
-    flex-basis: calc((9 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((9 * 100% / 12) - (2 * 0.5rem));
   }
   .m10 {
-    flex-basis: calc((10 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((10 * 100% / 12) - (2 * 0.5rem));
   }
   .m11 {
-    flex-basis: calc((11 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((11 * 100% / 12) - (2 * 0.5rem));
   }
   .m12 {
-    flex-basis: calc((12 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((12 * 100% / 12) - (2 * 0.5rem));
   }
 }
 
 @media screen and (min-width: 1024px) {
   .l1 {
-    flex-basis: calc((1 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((1 * 100% / 12) - (2 * 0.5rem));
   }
   .l2 {
-    flex-basis: calc((2 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((2 * 100% / 12) - (2 * 0.5rem));
   }
   .l3 {
-    flex-basis: calc((3 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((3 * 100% / 12) - (2 * 0.5rem));
   }
   .l4 {
-    flex-basis: calc((4 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((4 * 100% / 12) - (2 * 0.5rem));
   }
   .l5 {
-    flex-basis: calc((5 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((5 * 100% / 12) - (2 * 0.5rem));
   }
   .l6 {
-    flex-basis: calc((6 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((6 * 100% / 12) - (2 * 0.5rem));
   }
   .l7 {
-    flex-basis: calc((7 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((7 * 100% / 12) - (2 * 0.5rem));
   }
   .l8 {
-    flex-basis: calc((8 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((8 * 100% / 12) - (2 * 0.5rem));
   }
   .l9 {
-    flex-basis: calc((9 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((9 * 100% / 12) - (2 * 0.5rem));
   }
   .l10 {
-    flex-basis: calc((10 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((10 * 100% / 12) - (2 * 0.5rem));
   }
   .l11 {
-    flex-basis: calc((11 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((11 * 100% / 12) - (2 * 0.5rem));
   }
   .l12 {
-    flex-basis: calc((12 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((12 * 100% / 12) - (2 * 0.5rem));
   }
 }
 
 @media screen and (min-width: 1280px) {
   .xl1 {
-    flex-basis: calc((1 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((1 * 100% / 12) - (2 * 0.5rem));
   }
   .xl2 {
-    flex-basis: calc((2 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((2 * 100% / 12) - (2 * 0.5rem));
   }
   .xl3 {
-    flex-basis: calc((3 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((3 * 100% / 12) - (2 * 0.5rem));
   }
   .xl4 {
-    flex-basis: calc((4 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((4 * 100% / 12) - (2 * 0.5rem));
   }
   .xl5 {
-    flex-basis: calc((5 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((5 * 100% / 12) - (2 * 0.5rem));
   }
   .xl6 {
-    flex-basis: calc((6 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((6 * 100% / 12) - (2 * 0.5rem));
   }
   .xl7 {
-    flex-basis: calc((7 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((7 * 100% / 12) - (2 * 0.5rem));
   }
   .xl8 {
-    flex-basis: calc((8 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((8 * 100% / 12) - (2 * 0.5rem));
   }
   .xl9 {
-    flex-basis: calc((9 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((9 * 100% / 12) - (2 * 0.5rem));
   }
   .xl10 {
-    flex-basis: calc((10 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((10 * 100% / 12) - (2 * 0.5rem));
   }
   .xl11 {
-    flex-basis: calc((11 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((11 * 100% / 12) - (2 * 0.5rem));
   }
   .xl12 {
-    flex-basis: calc((12 * 100% / 12) - (2 * 0.5em));
+    flex-basis: calc((12 * 100% / 12) - (2 * 0.5rem));
+  }
+}
+
+/*
+  ./scss/framework/modules/_visibilites.scss
+  Module des Visibilités
+ */
+.xs-visible {
+  display: none;
+}
+
+@media screen and (min-width: 0) {
+  .xs-cache {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
+  }
+}
+
+.s-visible {
+  display: none;
+}
+
+@media screen and (min-width: 568px) {
+  .s-cache {
+    display: none;
+  }
+  .s-visible {
+    display: block;
+  }
+}
+
+.m-visible {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .m-cache {
+    display: none;
+  }
+  .m-visible {
+    display: block;
+  }
+}
+
+.l-visible {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .l-cache {
+    display: none;
+  }
+  .l-visible {
+    display: block;
+  }
+}
+
+.xl-visible {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .xl-cache {
+    display: none;
+  }
+  .xl-visible {
+    display: block;
   }
 }
 
@@ -248,18 +317,18 @@ figure {
 
 .boite-bords {
   border: #555 1px solid;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .boite-flottante-gauche {
   float: left;
-  margin-right: 1em;
+  margin-right: 1rem;
   width: 200px;
 }
 
 .boite-flottante-droite {
   float: right;
-  margin-left: 1em;
+  margin-left: 1rem;
   width: 200px;
 }
 
@@ -296,15 +365,15 @@ figure {
 
 /* Taille des textes */
 .contenu-grand {
-  font-size: 2.3em;
+  font-size: 2.3rem;
 }
 
 .contenu-medium {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .contenu-petit {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 /* Couleurs des contenus */
@@ -336,6 +405,6 @@ figure {
 
 .menu-horizontal > ul > li > a:hover,
 .menu-horizontal > ul > li.actif > a {
-  background: #0160A0;
+  background: #00BC62;
   color: #fff;
 }

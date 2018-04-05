@@ -2,18 +2,34 @@
 // ./scss/app.scss
 //
 
+    @import 'framework/variables';
+
 /* ----------------------------------------------------
    SPECIFICATIONS GENERALES (valeurs par défaut)
    ----------------------------------------------------
 */
 
-    div {
-      background: orange;
-      padding: 2em;
-    }
+
 
 
 /* ----------------------------------------------------
    OBJETS PARTICULIERS (identifiés par un id)
    ----------------------------------------------------
 */
+
+#entetePrincipal h1 {
+  background: $couleur1;
+  padding: 1em;
+}
+
+#entetePrincipal div {
+  background: $couleur2;
+  padding: 1em;
+  height: 4em;
+}
+
+#sectionPrincipale article figure {
+  background: #ccc;
+  padding: 1em;
+  height: 4em;
+}

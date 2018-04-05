@@ -8,7 +8,7 @@
   $couleur1Claire: lighten($couleur1, 30%);
   $couleur1Foncee: darken($couleur1, 30%);
 
-  $couleur2: #0160A0;
+  $couleur2: #00BC62;
   $couleur2Claire: lighten($couleur2, 30%);
   $couleur2Foncee: darken($couleur2, 30%);
 
@@ -22,16 +22,16 @@
 /* BORDS DES BOITES */
   $boiteBordsCouleur: $couleurNeutre;
   $boiteBordsDimension: 1px;
-  $boiteBordsPadding: 1em;
+  $boiteBordsPadding: 1rem;
 
 /* BORDS FOLTTANTES */
   $boiteFlottanteLargeur: 200px;
-  $boiteFlottanteMargin: 1em;
+  $boiteFlottanteMargin: 1rem;
 
 /* TAILLE DES CONTENUS */
-  $contenuGrand:  2.3em;
-  $contenuMedium: 1.2em;
-  $contenuPetit:  .8em;
+  $contenuGrand:  2.3rem;
+  $contenuMedium: 1.2rem;
+  $contenuPetit:  .8rem;
 
 /* MENUS */
   $menuCouleurOff:  $couleur1;
@@ -43,7 +43,7 @@
   $menuMarge: 1px;
 
 /* GRILLES */
-  $grillesGouttiere: .5em;
+  $grillesGouttiere: .5rem;
   $grillesColonnesNombre: 12;
   $grilleBreakPoints: ('xs': '0',
                        's' : '568px',
